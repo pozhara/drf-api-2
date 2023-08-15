@@ -71,7 +71,6 @@ DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
                     os.environ.get('ALLOWED_HOST'),
-                    'https://drf-api-django-42dcce883192.herokuapp.com/',
                     'localhost',
                 ]
 
